@@ -16,15 +16,51 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Basics',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Introduction', slug: 'basics/example' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Client APIs',
+					autogenerate: { directory: 'client-apis' },
+				},
+				{
+					label: 'Examples',
+					autogenerate: { directory: 'examples' },
+				},
+				{
+					label: 'Getting Started',
+					autogenerate: { directory: 'getting-started' },
+				},
+				{
+					label: 'Licensing Models',
+					autogenerate: { directory: 'licensing-models' },
+				},
+				{
+					label: 'Messaging API',
+					autogenerate: { directory: 'messaging-api' },
+				},
+				{
+					label: 'Payments',
+					autogenerate: { directory: 'payments' },
+				},
+				{
+					label: 'Price Optimization',
+					autogenerate: { directory: 'price-optimization' },
+				},
+				{
+					label: 'Reseller Dashboard',
+					autogenerate: { directory: 'reseller-dashboard' },
+				},
+				{
+					label: 'Security',
+					autogenerate: { directory: 'security' },
+				},
+				{
+					label: 'Web App',
+					autogenerate: { directory: 'web-app' },
 				},
 			],
 		}),
