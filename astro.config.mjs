@@ -17,10 +17,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Basics',
-					items: [
+					autogenerate: { directory: 'basics' },
+					//items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Introduction', slug: 'basics/example' },
-					],
+						//{ label: 'Introduction', slug: 'basics/example' },
+					//],
 				},
 				{
 					label: 'Client APIs',
