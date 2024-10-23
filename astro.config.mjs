@@ -18,10 +18,6 @@ export default defineConfig({
 				{
 					label: 'Basics',
 					autogenerate: { directory: 'basics' },
-					//items: [
-						// Each item here is one entry in the navigation menu.
-						//{ label: 'Introduction', slug: 'basics/example' },
-					//],
 				},
 				{
 					label: 'Client APIs',
